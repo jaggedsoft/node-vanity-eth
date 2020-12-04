@@ -11,6 +11,9 @@ starts with: `0xbada55` `0xbadA55` or `0xBADA55`<br>
 You can experiment with the regexp's here https://regex101.com/r/iE2xM4/2<br>
 Secret Sauce: `^([a-fA-F0-9]{2})\1{3,}/g`<br>
 
+#### Installation
+> `npm i keccak secp256k1 web3-utils crypto chalk discord.js`
+
 Test notes
 ```
 TODO: first 8 all numbers 0x12345678
